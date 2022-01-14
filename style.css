@@ -2,7 +2,9 @@ body{
     margin: 0;
     font-family: Montserrat;
 }
-
+header{
+    margin-top: 25px;
+}
 label.Logo{
     color: rgb(0, 0, 0);
     font-size: 35px;
@@ -80,3 +82,72 @@ ul > li > a{
 
     }
 }
+
+
+/* First-section */
+section{
+    display: flex;
+}
+.first-section{
+    margin-top: 90px;
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+
+.myself{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+.mission{
+    color: #70a1ff;
+}
+.first-half{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 8%;
+
+}
+.second-half{
+    width: 50%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.second-half img{
+    width: 65%;
+    margin-left: 5%;
+}
+
+.me-button{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    background-color: #70a1ff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin-bottom: 55px;
+    display: inline;
+}
+.me-button:hover{
+    background-color: #045cff;
+    color: white;
+}
+.myself1{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
