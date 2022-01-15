@@ -87,13 +87,13 @@ ul > li > a{
 /* First-section */
 
 
-section{
+/* section{
     display: flex;
-}
+} */
 .first-section{
     margin-top: 90px;
     margin-bottom: 60px;
-
+    display: flex;
 }
 
 h1{
@@ -169,5 +169,23 @@ h1{
 
 /* <!-- Third-section --> */
 
-
+.third{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+}
+.collect-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star.full{
+    color: rgb(255, 192, 19);
+}
+.fa-star.empty{
+    color: rgb(199, 197, 197);
+}
 
