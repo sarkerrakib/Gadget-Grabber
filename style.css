@@ -279,6 +279,11 @@ h1{
     }
     .collections{
         grid-template-columns: repeat(2, 1fr);
+        margin-left: -50px;
+        margin-right: 3px;
+    }
+    .collection{
+        padding: 10px 0px 10px 40px;
     }
 }
 
